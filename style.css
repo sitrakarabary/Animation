@@ -1,0 +1,109 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FCFBFA;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    font-size: 20px; /* Ajustez la taille de police selon vos besoins */
+    color: #333; /* Couleur du texte */
+    font-family: 'Arial', sans-serif; /* Police de caractères */
+    margin-bottom: 10px; /* Marge en bas pour espacement */
+}
+
+.second-text {
+    font-size: 20px; /* Ajustez la taille de police selon vos besoins */
+    color: #333; /* Couleur du texte */
+    font-family: 'Arial', sans-serif; /* Police de caractères */
+    margin-bottom: 10px; /* Marge en bas pour espacement */
+}
+
+.third-text {
+    font-size: 20px; /* Ajustez la taille de police selon vos besoins */
+    color: #333; /* Couleur du texte */
+    font-family: 'Arial', sans-serif; /* Police de caractères */
+    margin-bottom: 10px; /* Marge en bas pour espacement */
+}
+
+.character {
+    position: relative;
+    left: 70px;
+    top: 50px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonhomme {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;  /* Ajuste la taille de l'image comme nécessaire */
+    height: 500px;
+}
+
+
+.kiss {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 40px;
+    color: rgb(249, 60, 46);
+    display: none;
+    font-family: 'Bubblegum Sans', cursive; /* Applique la police au texte */
+    animation: bounce 1s infinite; /* Applique l'animation */
+}
+
+
+.show-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Bubblegum Sans', cursive;
+    margin-bottom: 20px;
+}
+
+.show-button:first-child {
+    display:inline-block;/* ou display: block; selon votre mise en page */
+    background-color: #ff1493;
+}
+
+
+
+/* définir l'animation */
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+}
+}
