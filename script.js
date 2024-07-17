@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Sélectionne le caractère
 
-    // Masque l'image kiss au chargement initial
+    // Masque l'image kiss au chargement initial et les autres éléments
     kissImage.style.display = 'none';
     secondText.style.display = 'none';
     thirdText.style.display = 'none';
@@ -36,13 +36,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
         button.addEventListener('click', () => {
             text.style.display = 'none'; // Masque le texte initial après le premier clic sur n'importe quel bouton
             button.style.display = 'none'; // Masque le bouton actuel après le clic
-            clickCount++; // Incrémente le compteur de clics
+            clickCount++; //  le compteur de clics
 
-            // Afficher le deuxième texte après le quatrième clic
+            // Affiche le deuxième texte après le quatrième clic
             if (clickCount === 4) {
                 secondText.style.display = 'block';
                 kissImage.style.display = 'block';
-                // Masquer le deuxième texte et l'image après 5 secondes
+                // Masque le deuxième texte et l'image après 5 secondes
                 setTimeout(() => {
                     secondText.style.display = 'none';
                     kissImage.style.display = 'none';
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 showNextButton(); // Affiche le bouton suivant immédiatement pour les autres clics
             }
 
-            // Afficher le texte "Coucou" après le dernier bouton
+            // Affiche le texte "Coucou" après le dernier bouton
             if (clickCount === buttons.length) {
                 thirdText.style.display = 'block';
                 character.style.display = 'block';

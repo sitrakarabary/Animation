@@ -18,24 +18,24 @@ body {
 }
 
 .text {
-    font-size: 20px; /* Ajustez la taille de police selon vos besoins */
-    color: #333; /* Couleur du texte */
-    font-family: 'Arial', sans-serif; /* Police de caractères */
-    margin-bottom: 10px; /* Marge en bas pour espacement */
+    font-size: 20px; 
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    margin-bottom: 10px; 
 }
 
 .second-text {
-    font-size: 20px; /* Ajustez la taille de police selon vos besoins */
-    color: #333; /* Couleur du texte */
-    font-family: 'Arial', sans-serif; /* Police de caractères */
-    margin-bottom: 10px; /* Marge en bas pour espacement */
+    font-size: 20px; 
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    margin-bottom: 10px; 
 }
 
 .third-text {
-    font-size: 20px; /* Ajustez la taille de police selon vos besoins */
-    color: #333; /* Couleur du texte */
-    font-family: 'Arial', sans-serif; /* Police de caractères */
-    margin-bottom: 10px; /* Marge en bas pour espacement */
+    font-size: 20px; 
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    margin-bottom: 10px; 
 }
 
 .character {
@@ -52,7 +52,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;  /* Ajuste la taille de l'image comme nécessaire */
+    width: 500px;  
     height: 500px;
 }
 
@@ -68,8 +68,8 @@ body {
     font-size: 40px;
     color: rgb(249, 60, 46);
     display: none;
-    font-family: 'Bubblegum Sans', cursive; /* Applique la police au texte */
-    animation: bounce 1s infinite; /* Applique l'animation */
+    font-family: 'Bubblegum Sans', cursive; 
+    animation: bounce 1s infinite; 
 }
 
 
@@ -86,13 +86,13 @@ body {
 }
 
 .show-button:first-child {
-    display:inline-block;/* ou display: block; selon votre mise en page */
+    display:inline-block;
     background-color: #ff1493;
 }
 
 
 
-/* définir l'animation */
+/* définition de l'animation */
 @keyframes sweep {
     0% {
         opacity: 0;
